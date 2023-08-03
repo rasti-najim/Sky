@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1A7B7627FE3B1C00055E9D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7B7527FE3B1C00055E9D /* AccountView.swift */; };
 		8B37FB2827E02543003B0123 /* SkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37FB2727E02543003B0123 /* SkyApp.swift */; };
 		8B37FB2A27E02543003B0123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37FB2927E02543003B0123 /* ContentView.swift */; };
 		8B37FB2C27E02545003B0123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37FB2B27E02545003B0123 /* Assets.xcassets */; };
 		8B37FB2F27E02545003B0123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37FB2E27E02545003B0123 /* Preview Assets.xcassets */; };
+		8B3C394627F14849004491D1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C394527F14849004491D1 /* HexagonParameters.swift */; };
+		8B3C394827F14994004491D1 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C394727F14994004491D1 /* Hexagon.swift */; };
+		8B5615E227F00364009012A2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5615E127F00364009012A2 /* WelcomeView.swift */; };
+		8B596EA227F7A7A400C7D576 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B596EA127F7A7A400C7D576 /* NavigationBar.swift */; };
+		8B596EA427F806AC00C7D576 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B596EA327F806AC00C7D576 /* SearchView.swift */; };
+		8B5B31FA27EAD17000E6E660 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B31F927EAD17000E6E660 /* ChatView.swift */; };
+		8B72EFC9285FCE6D0011F53A /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = 8B72EFC8285FCE6D0011F53A /* WrappingHStack */; };
+		8B7F426827F2BA75005C49D1 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F426727F2BA75005C49D1 /* EmailView.swift */; };
+		8B9E3C22281369D100AC740F /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9E3C21281369D100AC740F /* SocketIO */; };
+		8BAF078F28092D55008C2F22 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8BAF078E28092D55008C2F22 /* Alamofire */; };
+		8BAFC0D227FCF55A00E181A6 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFC0D127FCF55A00E181A6 /* ImageView.swift */; };
+		8BB6D9E727E42DDE00B6229E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6D9E627E42DDE00B6229E /* FrameView.swift */; };
+		8BB6D9E927E4308600B6229E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6D9E827E4308600B6229E /* CameraManager.swift */; };
+		8BBAA4C628051D8800E36AA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBAA4C528051D8800E36AA5 /* LoginView.swift */; };
+		8BBAA4CA28053B9900E36AA5 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8BBAA4C928053B9900E36AA5 /* KeychainSwift */; };
+		8BEA7B652816524400566EB2 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA7B642816524400566EB2 /* ChatViewModel.swift */; };
+		8BF6100E27F3678800684142 /* EmailConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6100D27F3678800684142 /* EmailConfirmationView.swift */; };
+		8BF6101027F3785000684142 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6100F27F3785000684142 /* UsernameView.swift */; };
+		8BF6101227F379BA00684142 /* BirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6101127F379BA00684142 /* BirthdayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1A7B7527FE3B1C00055E9D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		8B37FB2427E02543003B0123 /* Sky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B37FB2727E02543003B0123 /* SkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyApp.swift; sourceTree = "<group>"; };
 		8B37FB2927E02543003B0123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B37FB2B27E02545003B0123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B37FB2E27E02545003B0123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B3C394527F14849004491D1 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		8B3C394727F14994004491D1 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		8B5615E127F00364009012A2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8B596EA127F7A7A400C7D576 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		8B596EA327F806AC00C7D576 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		8B5B31F927EAD17000E6E660 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8B7F426727F2BA75005C49D1 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		8BAFC0D127FCF55A00E181A6 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		8BB6D9E627E42DDE00B6229E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		8BB6D9E827E4308600B6229E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		8BBAA4C528051D8800E36AA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8BEA7B642816524400566EB2 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		8BF6100D27F3678800684142 /* EmailConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationView.swift; sourceTree = "<group>"; };
+		8BF6100F27F3785000684142 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		8BF6101127F379BA00684142 /* BirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayView.swift; sourceTree = "<group>"; };
+		8BF6E09C27E54A0F00F4021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B72EFC9285FCE6D0011F53A /* WrappingHStack in Frameworks */,
+				8BBAA4CA28053B9900E36AA5 /* KeychainSwift in Frameworks */,
+				8BAF078F28092D55008C2F22 /* Alamofire in Frameworks */,
+				8B9E3C22281369D100AC740F /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +92,27 @@
 		8B37FB2627E02543003B0123 /* Sky */ = {
 			isa = PBXGroup;
 			children = (
+				8BF6E09C27E54A0F00F4021C /* Info.plist */,
 				8B37FB2727E02543003B0123 /* SkyApp.swift */,
 				8B37FB2927E02543003B0123 /* ContentView.swift */,
 				8B37FB2B27E02545003B0123 /* Assets.xcassets */,
 				8B37FB2D27E02545003B0123 /* Preview Content */,
+				8BB6D9E627E42DDE00B6229E /* FrameView.swift */,
+				8BB6D9E827E4308600B6229E /* CameraManager.swift */,
+				8B5B31F927EAD17000E6E660 /* ChatView.swift */,
+				8B5615E127F00364009012A2 /* WelcomeView.swift */,
+				8B3C394527F14849004491D1 /* HexagonParameters.swift */,
+				8B3C394727F14994004491D1 /* Hexagon.swift */,
+				8B7F426727F2BA75005C49D1 /* EmailView.swift */,
+				8BF6100D27F3678800684142 /* EmailConfirmationView.swift */,
+				8BF6100F27F3785000684142 /* UsernameView.swift */,
+				8BF6101127F379BA00684142 /* BirthdayView.swift */,
+				8B596EA127F7A7A400C7D576 /* NavigationBar.swift */,
+				8B596EA327F806AC00C7D576 /* SearchView.swift */,
+				8BAFC0D127FCF55A00E181A6 /* ImageView.swift */,
+				8B1A7B7527FE3B1C00055E9D /* AccountView.swift */,
+				8BBAA4C528051D8800E36AA5 /* LoginView.swift */,
+				8BEA7B642816524400566EB2 /* ChatViewModel.swift */,
 			);
 			path = Sky;
 			sourceTree = "<group>";
@@ -83,6 +141,12 @@
 			dependencies = (
 			);
 			name = Sky;
+			packageProductDependencies = (
+				8BBAA4C928053B9900E36AA5 /* KeychainSwift */,
+				8BAF078E28092D55008C2F22 /* Alamofire */,
+				8B9E3C21281369D100AC740F /* SocketIO */,
+				8B72EFC8285FCE6D0011F53A /* WrappingHStack */,
+			);
 			productName = Sky;
 			productReference = 8B37FB2427E02543003B0123 /* Sky.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,12 @@
 				Base,
 			);
 			mainGroup = 8B37FB1B27E02543003B0123;
+			packageReferences = (
+				8BBAA4C828053B9900E36AA5 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				8BAF078D28092D55008C2F22 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8B9E3C20281369D100AC740F /* XCRemoteSwiftPackageReference "socket" */,
+				8B72EFC7285FCE6D0011F53A /* XCRemoteSwiftPackageReference "WrappingHStack" */,
+			);
 			productRefGroup = 8B37FB2527E02543003B0123 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +207,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BAFC0D227FCF55A00E181A6 /* ImageView.swift in Sources */,
+				8B3C394627F14849004491D1 /* HexagonParameters.swift in Sources */,
+				8BB6D9E727E42DDE00B6229E /* FrameView.swift in Sources */,
+				8B7F426827F2BA75005C49D1 /* EmailView.swift in Sources */,
+				8B1A7B7627FE3B1C00055E9D /* AccountView.swift in Sources */,
+				8BF6101227F379BA00684142 /* BirthdayView.swift in Sources */,
+				8B596EA227F7A7A400C7D576 /* NavigationBar.swift in Sources */,
+				8B3C394827F14994004491D1 /* Hexagon.swift in Sources */,
+				8BF6100E27F3678800684142 /* EmailConfirmationView.swift in Sources */,
+				8B5615E227F00364009012A2 /* WelcomeView.swift in Sources */,
 				8B37FB2A27E02543003B0123 /* ContentView.swift in Sources */,
+				8BBAA4C628051D8800E36AA5 /* LoginView.swift in Sources */,
+				8B5B31FA27EAD17000E6E660 /* ChatView.swift in Sources */,
+				8B596EA427F806AC00C7D576 /* SearchView.swift in Sources */,
+				8BB6D9E927E4308600B6229E /* CameraManager.swift in Sources */,
 				8B37FB2827E02543003B0123 /* SkyApp.swift in Sources */,
+				8BEA7B652816524400566EB2 /* ChatViewModel.swift in Sources */,
+				8BF6101027F3785000684142 /* UsernameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -272,11 +358,14 @@
 				DEVELOPMENT_TEAM = 6XJLMHPMD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +390,14 @@
 				DEVELOPMENT_TEAM = 6XJLMHPMD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +433,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B72EFC7285FCE6D0011F53A /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dkk/WrappingHStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8B9E3C20281369D100AC740F /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8BAF078D28092D55008C2F22 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8BBAA4C828053B9900E36AA5 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B72EFC8285FCE6D0011F53A /* WrappingHStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B72EFC7285FCE6D0011F53A /* XCRemoteSwiftPackageReference "WrappingHStack" */;
+			productName = WrappingHStack;
+		};
+		8B9E3C21281369D100AC740F /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9E3C20281369D100AC740F /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+		8BAF078E28092D55008C2F22 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BAF078D28092D55008C2F22 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8BBAA4C928053B9900E36AA5 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BBAA4C828053B9900E36AA5 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B37FB1C27E02543003B0123 /* Project object */;
 }
